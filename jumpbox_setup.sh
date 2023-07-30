@@ -197,7 +197,7 @@ echo "This script will install dependencies for Seclab Jumpbox."
 printf "Continue? [Y/n] "
 read confirm
 
-if [[ $confirm == "" ]] || [[ $confirm == "Y" ]]; then
+if [[ $confirm == "" ]] || [[ $confirm == "Y" ]] || [[ $confirm == "y"]]; then
     echo "Doing it"
     echo "[+] Beginning installation"
     install_vscode
